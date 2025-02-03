@@ -1,0 +1,1283 @@
+/* for laptop 1024 view */
+@media (min-width:1021px) and (max-width:1220px){
+
+    .fontsize26 {
+        font-size: 18px !important;
+    }
+
+    .title_heading {
+        font-size: 34px !important;
+    }
+
+    section.steps_section {
+        padding: 60px 0px 60px 0px;
+    }
+
+    .step_bottom_text {
+        padding-top: 40px;
+    }
+
+    .benefits_bgimage img {
+        width: 40%;
+        float: right
+    }
+
+    .benefits_bgimage img {
+        height: 677px;
+    }
+
+    .sip-calculator {
+        padding: 3em 2em 3em 2em;
+    }
+
+    .amount_check button {
+        padding: 19px 13px 14px 13px;
+    }
+
+    canvas#myCanvas {
+        margin-left: 0px;
+    }
+
+    section.why_choose_section {
+        padding-top: 50px;
+    }
+
+    .after_login_body section.faq_section {
+        padding: 30px 0px 30px 0px;
+    }
+
+    section.top_step_content {
+        padding-top: 60px;
+        background: #e3c2ab8a;
+        padding-bottom: 60px;
+    }
+
+    div#bg_theme {
+        padding: 0px 10px;
+    }
+
+    /* instant pay page */
+
+    .instant_pay {
+        width: 80%;
+    }
+
+    /* after login */
+
+    .userlogin_box span {
+        display: inline;
+    }
+
+    .after_login_body .benefits_bgimage {
+        position: absolute;
+        right: 40px;
+        top: -2px;
+        width: 14%;
+    }
+
+    .after_login_body .benefits_bgimage img {
+        width: 100%;
+        margin-right: -120px;
+    }
+
+    img.sidebar_logo {
+        width: 85%;
+        padding: 7px 0px 0px 10px;
+    }
+
+    .nav-pills .nav-item .nav-link {
+        padding: 14px 0px 0px !important;
+        line-height: 20px;
+    }
+
+    .top_step_content p span {
+        display: inline;
+    }
+
+    .inner_sectionpadd {
+        padding-bottom: 30px;
+    }
+
+    /* contact us page */
+
+    .address {
+        display: flex;
+        gap: 4%;
+    }
+
+    
+}
+
+@media (min-width:992px) and (max-width:1020px){
+
+    .benefits_bgimage {
+        display: none;
+    }
+    
+    canvas#myCanvas {
+        width: 41%;
+        position: absolute;
+        top: 30%;
+        margin-left: 110px;
+    }
+
+    .col-md-12.mb-4 .sip-calculator-amount {
+        width: 100%;
+    }
+
+    .col-md-12 .sip-calculator-amount {
+        width: 105%;
+    }
+
+    /* after login */
+
+    .userlogin_box span b{
+        display: none !important;
+    }
+
+    .after_login_body footer .container {
+        width: 100% !important;
+    }
+}
+
+/* for tablet view */
+@media (min-width:768px) and (max-width:991px){
+    
+    html {
+        overflow-x: hidden !important;
+    }
+
+    /* .col-md-12, .col-md-6 {
+        padding: 0px 0px 0px 0px !important;
+    } */
+
+    p {
+        font-size: 16px;
+    }
+
+    header {
+        position: relative;
+    }
+
+    .fontsize26 {
+        font-size: 16px !important;
+    }
+
+    .title_heading {
+        font-size: 26px !important;
+        font-weight: 500;
+    }
+
+    section.faq_section_main {
+        padding: 10px 0px 20px 0px;
+    }
+
+    body .nav_right_menu {
+        margin-right: 0px !important;
+    }
+
+    body .width80:not(.sidebar) {
+        width: 100% !important;
+    }
+    
+    .width20 {
+        width: 35% !important;
+    }
+
+    div#bg_theme {
+        position: fixed;
+        top: 0px;
+        z-index: 999;
+        padding: 0px 10px;
+        margin-left: -600px;
+    }
+
+    .bg_theme img {
+        width: 120px;
+    }
+
+    body .userlogin_box {
+        display: flex;
+        flex-direction: row-reverse;
+        right: 0px;
+        width: 110px;
+        position: fixed;
+        top: 6px;
+    }
+
+    .bg_theme {
+        transition: all 0.3s ease-in;
+        margin-left: -180px;
+    }
+
+    .closebtn {
+        display: block;
+    }
+
+    .sidebar .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+    .nav_right_menu {
+        background: transparent;
+    }
+
+    .userlogin_box span b{
+        display: none !important;
+    }
+
+    .sidebar a {
+        color: #c1884e;
+    }
+
+    .sidebar a:hover {
+        color: #c1884e !important;
+    }
+
+    .login_fa_bars {
+        display: block;
+        position: absolute;
+        right: 65px;
+        top: 9%;
+        z-index: 999;
+    }
+
+    #nav-bar-icon {
+        border: 0;
+        background-color: transparent;
+        margin-top: 4px;
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: row !important;
+    }
+
+    #nav-icon .fa-bars {
+        font-size: 26px;
+    }
+
+    a#nav-icon {
+        padding: 0px !important;
+    }
+
+    .navbar-brand img {
+        width: 70%;
+    }
+
+    .carousel-indicators {
+        display: none !important;
+    }
+
+    .top_step_content {
+        padding-top: 40px !important;
+        padding-bottom: 30px !important;
+    }
+
+    .steps_section {
+        padding: 30px 0px 30px 0px !important ;
+    }
+
+    .steps_section p {
+        margin-bottom: 0px !important;
+    }
+
+    .step_box {
+        display: flex;
+        gap: 40px;
+        align-items: center;
+    }
+
+    .step_box_icon {
+        width: 110px;
+        height: 110px;
+        margin-top: 10px;
+    }
+
+    .step_box>div:nth-child(2):not(:last-child) {
+        display: none;
+    }
+
+    .step_box_img {
+        width: 110px;
+        height: 110px;
+    }
+
+    .step_bottom_text {
+        padding-top: 30px;
+    }
+
+    .aos-init.aos-animate {
+        font-size: 16px !important;
+    }
+
+    .benefits_bgimage {
+        position: absolute;
+        right: -100px;
+        top: -36px;
+        display: none;
+    }
+
+    .benefits_bgimage img {
+        width: 80%;
+    }
+    
+    .top_step_content p span {
+        display: inline;
+    }
+
+    .inner_sectionpadd {
+        padding-bottom: 30px;
+    }
+
+    
+    .benefits_calculator .buttonclass {
+        margin-left: 10px;
+    }
+        
+    .sip-calculator {
+        padding: 2em 2em 3em 2em;
+    }
+
+    .amount_monthly2 {
+        border: 2px solid #404040;
+        padding: 4px 0px 4px 15px;
+    }
+
+    .col-md-12.mb-4 .sip-calculator-amount {
+        width: 100%
+    }
+
+    .col-md-12 .sip-calculator-amount {
+        width: 108%
+    }
+    
+    canvas#myCanvas {
+        width: 41%;
+        position: absolute;
+        top: 30%;
+    }
+
+    .why_choose_section {
+        padding-top: 30px !important;
+    }
+
+    .choose_content p {
+        font-size: 16px !important;
+        padding-right: 15px !important;
+    }
+
+    .why_choose_section .container {
+        padding: 0px 10px;
+    }
+
+    .faq_section {
+        padding: 30px 0px 30px 0px !important;
+    }
+
+    .faq_section .accordion-item {
+        margin-bottom: 10px;
+    }
+
+    footer .row .col-lg-3.col-md-6:nth-child(5) {
+        display: none;
+    }
+
+    .footer-widget .widget-menu li:not(:last-child) {
+        margin-bottom: 3px;
+    }
+
+    .footer-widget .widget-menu a {
+        display: inline-block;
+    }
+    
+    .form-subscribe input {
+        padding: 8px 14px;
+        font-size: 14px;
+    }
+
+    ul.float_right li:nth-child(5) {
+        font-size: 16px;
+    }
+    /* new account page */
+ 
+    .step-button {
+        width: 40px;
+        height: 40px;
+    }
+
+    .step-button[aria-expanded="true"] {
+        width: 48px;
+        height: 48px;
+    }
+
+    .card {
+        margin-bottom: 10px !important;
+    }
+
+    
+    /* instant pay page*/
+
+    .instant_pay {
+        width: 100%;
+    }
+    
+
+    /* information page */
+
+    .information_section {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        padding-bottom: 35px !important;
+    }
+
+    /* terms and condition */
+
+    .terms_section {
+        padding-bottom: 10px;
+    }
+
+    /* contact-us page  */
+
+    .contact_form_section {
+        padding-right: 0px !important;
+        padding-left: 25px !important;
+    }
+
+    .contact_form_section>div {
+        padding: 30px 10px !important;
+    }
+
+    .contact_info p, .contact_form_text, .contact_info a {
+        font-size: 16px;
+    }
+
+    /* after login page */
+
+    
+    .dropdown-item {
+        width: 73% !important;
+        right: 11%;
+        left: 3%;
+    }
+
+    .after_login_body footer .container {
+        width: 100% !important;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* for mobile view */
+@media (max-width:767px) {
+
+    html {
+        overflow-x: hidden;
+    }
+
+    p, a {
+        font-size: 16px !important;
+    }
+
+    .after_login_body .container:not(footer .container) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    p.fontsize26 {
+        font-size: 16px !important;
+        margin-bottom: 0px; 
+    }
+
+    .title_heading {
+        font-size: 26px !important;
+        font-weight: 500;
+        z-index: 1;
+        position: relative;
+    }
+
+    .mt60 {
+        margin-top: 40px;
+    }
+
+    .card {
+        margin-bottom: 10px !important;
+    }
+
+    header {
+        position: relative;
+    }
+
+    .navbar {
+        padding: 0px !important;
+    }
+
+    .nav_right_menu {
+        background: transparent;
+    }
+
+    section.faq_section_main {
+        padding: 10px 0px 20px 0px;
+    }
+
+    .total_number_main {
+        padding-top: 0px;
+        text-align: center;
+    }
+
+    a#nav-icon {
+        padding: 0px !important;
+    }
+
+    .carousel-indicators {
+        display: none !important;
+    }
+
+    p#amount_13x {
+        font-size: 24px !important;
+    }
+
+    canvas#myCanvas {
+        margin-left: 7px;
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    header {
+        box-shadow: 3px 2px 10px #e7dfd4;
+    }
+
+    .modal_popup_cls .modal-content input.form-control {
+        padding: 5px 0px 5px 4px;
+    }
+
+    body .nav_right_menu {
+        margin-right: 0px !important;
+        align-items: center;  
+        padding-right: 5px;
+        padding-left: 3px;
+    }
+
+    .navbar-brand {
+        width: 40% !important;
+        margin-right: 0px !important;
+    }
+
+    .nav_right_menu li i {
+        font-size: 20px;
+    }
+
+    .navbar-brand img {
+        width: 90%;
+    }
+
+    a#nav-icon img {
+        width: 30px;
+    }
+    
+    .nav_right_menu li {
+        padding-left: 0px !important;
+        padding-right: 10px;
+    }
+
+    .bars {
+        padding: 0px !important;
+    }
+
+    .nav_right_menu li a {
+        font-size: 12px;
+    }
+
+    #nav-icon .fa-bars {
+        font-size: 22px;
+        color: #c1884e;
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: row !important;
+    }
+
+    body nav .nav_right_menu li a {
+        color: #000 !important;
+        padding: 0px 0px 8px 0px !important;
+        font-size: 12px !important;
+    }
+
+    .modal_popup_cls .modal-content {
+        padding: 20px 10px ;                  /* sign up modal popup */
+    }
+
+    
+
+    .openaccount {
+        padding-left: 10px;                /* sign up modal popup */
+        padding-right: 10px;
+    }
+
+    .menu_sec {
+        position: relative;
+        right: 0px !important;
+    }
+
+    div#carouselExampleIndicators {
+        position: relative;
+        top: 0px;
+    }
+
+    .carousel-control-next-icon, 
+    .carousel-control-prev-icon {
+        background-image: none !important;
+        font-size: 26px;
+        font-weight: 400 !important;
+        color: #c1884e;
+        transform: translateY(10px);
+    }
+
+    .carousel-control-prev-icon:before {
+        content: "\f104";
+        font-family: fontawesome;
+        margin-left: 15px;
+    }
+    .carousel-control-next-icon:after {
+        content: "\f105";
+        font-family: fontawesome;
+        margin-left: -15px;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        width: 24px;
+        height: 3px;
+        background-color: #000 !important;
+    }
+
+    .stunning_necklace {
+        display: inline;
+    }
+    
+    .top_step_content {
+        padding-top: 30px !important;
+        background: #e3c2ab8a;
+        padding-bottom: 30px !important;
+    }
+
+    .steps_section {
+        padding: 30px 0px 30px 0px !important;
+    }
+
+    .step_box_img {
+        width: 75px;
+        height: 75px;
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+
+    .why_choose_section .col-lg-4 {
+        padding: 0px;
+    }
+
+    #nav-sip-calculator-tab a { 
+        padding: 8px 10px;
+    }
+
+    nav#nav-sip-calculator-tab {
+        justify-content: center;
+    }
+
+    #home_page .faq_section_main>div {
+        padding: 0px;
+    }
+
+    .faq_section_main .accordion-button.collapsed { 
+        padding: 20px 15px;
+    }
+
+    #faq_page section.faq_section_main {
+        padding: 20px 0px 20px 0px;
+    }
+
+    .step_box_icon {
+        width: 75px;
+        height: 75px;
+        margin-top: 24px;
+    }
+
+    .step_box_icon img {
+        width: 26px;
+        padding-top: 22px;
+    }
+
+    .step_box p {
+        padding-top: 10px;
+    }
+
+    .step_box.steps2, .step_box.steps4 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .steps_section img:not(.step_box_img img) {
+        display: none !important;
+    }
+
+    .step_content1,.step_content2 ,.step_content3 ,.step_content4 {
+        padding-top: 7px;
+    }  
+
+    .step_bottom_text {
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .step_bottom_text p {
+        font-size: 18px;
+    }
+
+    .sip-calculator {
+        padding: 2em 1em 1em 1em;;
+    }
+
+    .amount_check button, .amount_monthly2 {
+        border: 1px solid #404040 !important;
+    }
+
+    .sip-calculator-amount, .sip-calculator-year, .sip-calculator-roi {
+        margin-bottom: 0.2em;
+    }
+
+    .benefits_calculator.sip-calculator.aos-init.aos-animate {
+        overflow: hidden;
+    }
+
+    .benefits_bgimage img {
+        float: right;
+        width: 40%;
+    }
+
+    .benefits_bgimage {
+        position: absolute;
+        right: -24px;
+        top: -23px;
+        display: none;
+    }
+
+    .benefits_calculator .buttonclass {
+        margin-left: 10px;
+    }
+
+    .amount_monthly1 {
+        border: 1px solid #404040;
+        padding: 4px 15px 4px 15px;
+        float: left;
+        width: 70%;
+    }
+
+    label#amountLabel {
+        font-size: 12px;
+    }
+
+    #amountLabel span {
+        font-size: 18px;
+    }
+
+    .amount_check button {
+        padding: 21px 0px 14px 0px;
+    }
+
+    .why_choose_section {
+        padding-top: 40px !important;
+    }
+
+    .choose_img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .choose_content h5 {
+        margin-bottom: 2px;
+    }
+
+    .choose_content p {
+        font-size: 16px;
+        padding-right: 0px !important;
+        text-align: start;
+    }
+
+    .information_box .choose_content p {
+        text-align: center;
+    }
+
+    .faq_section {
+        padding: 10px 0px 20px 0px !important; 
+    }
+
+    .faq_section .accordion-body {
+        padding: 15px 15px;
+        font-size: 14px;
+    }
+
+    .accordion-button::after {
+        width: 14px;
+        height: 14px;
+        background-size: 16px;
+    }
+
+    .faq_section .accordion-item {
+        margin-bottom: 9px;
+    }
+    
+
+    footer {
+        padding: 20px 0 0px 0px;
+        position: relative !important;
+        width: 100% !important;
+        bottom: 0px;
+    }
+
+    .footer-widget .widget-menu li:not(:last-child) {
+        margin-bottom: 3px;
+    }
+
+    .footer-widget .widget-menu a {
+        display: inline-block;
+    }
+/* 
+    .footer .row>div:nth-child(4) > .footer-widget {
+        position: absolute;
+        top: 20px;
+        right: 5%;
+        width: 40%;
+    } */
+
+    .footer-app-image {
+        margin-top: -310px;
+        position: absolute;
+        right: 1%;
+    }
+
+    .footer-app-image img {
+        width: 180px !important;
+        float: right;
+    }
+
+    .footer-widget .widget-title {
+        font-size: 16px;
+        text-transform: capitalize;
+        margin-bottom: 10px;
+        padding-top: 20px;
+        font-weight: 600;
+    }
+
+    .footer .col-lg-5.col-md-6 .font-size20 {
+        font-size: 18px !important;
+    }
+
+    .footer_social ul {
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+    }
+
+    footer ul.widget-menu li a {
+        font-size: 14px !important;
+    }
+
+    .line-height35 {
+        line-height: 25px;
+        padding-top: 20px;
+        float: right;
+    }
+
+    .form-subscribe input {
+        padding: 8px 14px;
+        font-size: 14px;
+    }
+
+    form.form-subscribe button {
+        border-radius: 20px 20px 20px 20px;
+        font-size: 14px;
+        padding: 10px 25px 10px 25px;
+    }
+
+    .copyright_section .float_right {
+        float: none;
+    }
+
+    .copyright_section {
+        border-top: 1px solid #343434;
+        padding-top: 10px;
+        margin-top: 30px;
+        padding-bottom: 10px;
+    }
+
+    .design_by_nexgeno {
+        display: flex;
+        justify-content: center;
+    }
+
+    ul.float_right li:nth-child(4) {
+        font-size: 14px;
+    }
+
+    .after_login_body .main {
+        padding-bottom: 50px;
+        margin-bottom: 20px;
+    }
+
+    .after_login_body footer {
+        padding: 0px 0 0px 0px;
+        position: absolute !important;
+        bottom: 0px;
+        width: 100%;
+    }
+
+    .after_login_body .copyright_section ul li a {
+        font-size: 14px !important;
+    }
+
+    .after_login_body .copyright_section span {
+        font-size: 14px;
+    }
+
+    .inner_page_banner {
+        display: none;
+    }
+    
+    /* new account page */
+
+    .openaccount label {
+        font-size: 16px;
+    }
+
+    .steps {
+        margin-bottom: 1rem;
+    }
+
+    .step-button {
+        width: 31px;
+        height: 31px;
+        font-size: 14px;
+    }
+
+    .step-button[aria-expanded="true"] {
+        width: 34px;
+        height: 34px;
+    }
+
+    label#accept_term-error {
+        position: absolute;
+        margin-top: 2px;
+    }
+
+    /* instant pay page*/
+
+
+    .instant_pay {
+        width: 100%;
+    }
+
+    .instant_section label {
+        font-size: 16px;
+    }
+
+    .instant_pay .adhar_field input {
+        font-size: 14px;
+    }
+
+    input::placeholder {
+        font-size: 14px !important;
+    }
+
+    
+    .about_us_section h4:nth-child(2) {
+        font-size: 20px;
+    }
+
+    /* information page */
+
+    .information_section {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 30px !important;
+    }
+
+    .information_tb thead tr th:last-of-type, 
+    .information_tb tbody tr td:last-of-type {
+        padding-right: 15px !important;
+    }
+
+    .information_tb th, .information_tb td {
+        font-size: 13px;
+        border: 0 !important;
+        text-align: start;
+        padding: 5px 0px 10px 8px !important;
+        line-height: 16px;
+    }
+
+    /* terms and condition */
+
+    .terms_section {
+        padding-bottom: 0px;
+    }
+
+    .terms_section h4, .terms_section h5 {
+        font-size: 18px ;
+    }
+
+    /* gives feedback page */
+
+    .gives_feedback {
+        padding: 1px 10px 30px !important;
+        margin-top: 0px !important;
+    }
+    
+    /* contact-us page  */
+
+    /* .contact_form_section {
+        padding-right: 0px !important;
+        padding-left: 25px !important;
+    } */
+
+    .contact_form_section>div {
+        padding: 30px 10px !important;
+        flex-direction: column;
+    }
+
+    .contact_form_text {
+        font-size: 16px !important;
+        margin-bottom: 10px;
+    }
+
+    .address {
+        display: flex;
+        gap: 4%;
+    }
+
+    /* after login in side bar */
+
+    
+    .dropdown-item {
+        width: 73% !important;
+        right: 11%;
+        left: 3%;
+        text-align: center !important;
+    }
+
+    .sidebaar_section {
+        padding: 0px !important;
+    }
+
+    .width20 {
+        width: 70% !important;
+    }
+
+    #menu span {
+        font-size: 15px;
+    }
+
+    .login_fa_bars {
+        display: block;
+        position: absolute;
+        top: 6px;
+        z-index: 999;
+        left: 10px;
+    }
+
+    .userlogin_box span b{
+        display: none !important;
+    }
+
+    #nav-bar-icon {
+        border: 0;
+        background-color: transparent;
+    }
+
+    img.sidebar_logo {
+        width: 55%;
+        padding: 18px 0px 10px 10px;
+        margin-left: 0px;
+    }
+    
+    body .userlogin_box {
+        width: 3em !important;
+        padding: 7px 4px 7px 10px !important;
+        display: flex;
+        flex-direction: row-reverse;
+        position: fixed !important;
+        right: 0px;
+        height: 46px;
+    }
+
+    #user_profile_detail .card {
+        width: 95%;
+    }
+
+
+    .bg_theme {
+        position: absolute;
+        z-index: 99;
+        height: 100%;
+        /* transform: translateX(-100%); */
+        transition: transform 0.3s ease-in;
+        margin-left:-320px;
+        width: 0;
+    }
+
+    .bg_theme .width80 {
+        width: 100% !important;
+        position: relative;
+    }
+
+    .bg_theme img {
+        width: 75%;
+    }
+
+    .nav-pills .nav-link {
+        color: #000 !important;
+    }
+
+     .stunning_necklace {
+        display: inline;
+    }
+
+    .top_step_content p span {
+        display: inline !important;
+    }
+
+    .step_bottom_text p span {
+        display: inline;
+    }
+
+    body .width80:not(.sidebar) {
+        width: 100% !important;
+    }
+
+    .sidebar {
+        height: 100%;
+        width: 0;
+        transition: 0.5s;
+    }
+    .sidebar a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        display: block;
+        transition: 0.3s;
+    }
+    .sidebar a {
+        color: #c1884e;
+    }
+    .sidebar a:hover {
+        color: #c1884e !important;
+    }
+    .sidebar .closebtn {
+        position: absolute;
+        top: 0;
+        right: 0px;
+        font-size: 36px !important;
+        margin-left: 50px;
+    }
+    #nav-bar-icon {
+        margin-top: 4px;
+        cursor: pointer;
+    }
+    #bg_theme {
+        transition: margin-left .5s;
+        padding: 6px;
+        position: fixed;
+        top: 0px;
+        margin-left: -600px; 
+    }
+
+    .after_login_body .copyright_section .col-md-5 ul {
+        display: block;
+    }
+
+    .after_login_body .copyright_section .col-md-5 ul li {
+        margin: 0px 4px;
+        font-size: 14px;
+    }
+
+    .p-3.mt-5.mb-3.text-black {       /*  for nominee details heading alignment */
+        width: 95%;
+        margin-left: 10px;
+    }
+
+    .after_login_body section:last-child {
+        margin-bottom: 40px;
+    }
+    
+    .inner_sectionpadd {
+        padding-bottom: 30px;
+    }
+
+    /* new account */
+
+    div#preview-info h5 {
+        font-size: 18px;
+        margin-bottom: 0px;
+    }
+
+    /* pay installment page */
+
+    .account_number {
+        font-size: 19px;
+    }
+    
+    section.plans_section {
+        padding: 20px 0px 20px 0px;
+    }
+
+}
+
+@media  (max-width:346px)  {
+    .footer-app-image {
+        position: absolute;
+        right: -3%;
+    }
+
+    .step-button {
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .openaccount {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .step-button[aria-expanded="true"] {
+        width: 31px;
+        height: 31px;
+    }
+
+     /* pay installment page */
+
+     .account_number {
+        font-size: 18px;
+    }
+
+    /* plans page */
+
+    section.plans_section {
+        padding: 20px 0px 20px 0px;
+    }
+
+}

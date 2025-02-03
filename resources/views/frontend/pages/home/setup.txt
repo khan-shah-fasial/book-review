@@ -1,0 +1,159 @@
+php artisan make:migration create_books_table --create=books
+
+public function up()
+{
+    Schema::create('books', function (Blueprint $table) {
+        $table->id();
+        $table->string('book_name');
+        $table->text('description');
+        $table->longText('image');
+        $table->timestamps();
+    });
+}
+
+php artisan make:migration create_book_reviews_table --create=book_reviews
+
+public function up()
+{
+    Schema::create('book_reviews', function (Blueprint $table) {
+        $table->id();
+        $table->foreignId('book_id')->constrained('books')->onDelete('cascade');
+        $table->foreignId('user_id')->constrained('users')->onDelete('cascade');
+        $table->integer('rating');
+        $table->text('comment');
+        $table->timestamps();
+    });
+}
+
+php artisan migrate
+
+php artisan make:seeder UsersTableSeeder
+
+
+use Illuminate\Database\Seeder;
+use App\Models\User;
+use Faker\Factory as Faker;
+
+public function run()
+{
+    $faker = Faker::create();
+
+    // Create an admin user
+    User::create([
+        'name' => $faker->name,
+        'username' => $faker->userName,
+        'email' => $faker->unique()->safeEmail,
+        'password' => bcrypt('password'), // simple password
+        'role' => 'admin', // hardcoded role for the admin user
+    ]);
+
+    // Create 10 customer users
+    for ($i = 0; $i < 10; $i++) {
+        User::create([
+            'name' => $faker->name,
+            'username' => $faker->userName,
+            'email' => $faker->unique()->safeEmail,
+            'password' => bcrypt('password'),
+            'role' => 'customer', // role set to customer
+        ]);
+    }
+}
+
+php artisan make:seeder BooksTableSeeder
+
+use Illuminate\Database\Seeder;
+use App\Models\Book;
+use Faker\Factory as Faker;
+
+public function run()
+{
+    $faker = Faker::create();
+
+    // Create 5 books
+    for ($i = 0; $i < 5; $i++) {
+        Book::create([
+            'book_name' => $faker->sentence(3),
+            'description' => $faker->paragraph,
+            'image' => $faker->text(200), // Fake image URL (you can change it)
+        ]);
+    }
+}
+
+php artisan make:seeder BookReviewsTableSeeder
+
+use Illuminate\Database\Seeder;
+use App\Models\BookReview;
+use App\Models\User;
+use App\Models\Book;
+use Faker\Factory as Faker;
+
+public function run()
+{
+    $faker = Faker::create();
+
+    // Create 20 book reviews
+    for ($i = 0; $i < 20; $i++) {
+        BookReview::create([
+            'book_id' => Book::inRandomOrder()->first()->id, // Random book
+            'user_id' => User::inRandomOrder()->first()->id, // Random user
+            'rating' => $faker->numberBetween(1, 5),
+            'comment' => $faker->text,
+        ]);
+    }
+}
+
+To run all the seeders, open database/seeders/DatabaseSeeder.php and update it like this:
+
+public function run()
+{
+    $this->call([
+        UsersTableSeeder::class,
+        BooksTableSeeder::class,
+        BookReviewsTableSeeder::class,
+    ]);
+}
+
+php artisan db:seed
+
+php artisan tinker
+
+User::all(); // Check users
+Book::all(); // Check books
+BookReview::all(); // Check book reviews
+
+//==========================================================================//
+
+
+use Illuminate\Database\Seeder;
+use App\Models\Book;
+use Faker\Factory as Faker;
+use Illuminate\Support\Facades\Storage;
+
+public function run()
+{
+    $faker = Faker::create();
+
+    // Define an array of available image filenames (you can expand this)
+    $imageFiles = [
+        'assets/book1.jpg',
+        'assets/book2.png',
+        'assets/book3.jpg',
+        'assets/book4.png',
+        'assets/book5.jpg'
+    ];
+
+    // Create 5 books with random images
+    for ($i = 0; $i < 5; $i++) {
+        Book::create([
+            'book_name' => $faker->sentence(3),
+            'description' => $faker->paragraph,
+            'image' => $faker->randomElement($imageFiles), // Randomly choose an image path
+        ]);
+    }
+}
+
+<img src="{{ asset($book->image) }}" alt="Book Image">
+
+
+
+php artisan migrate:fresh --seed
